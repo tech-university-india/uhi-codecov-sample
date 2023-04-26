@@ -1,4 +1,4 @@
-const {addition}=require('../index'); 
+const {addition}=require('../src/index'); 
 describe('Addition', () => {
   it('should give 5 on adding 2 and 3', () => {
     const num =addition(2,3);
